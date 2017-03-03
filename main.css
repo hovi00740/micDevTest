@@ -1,0 +1,48 @@
+tr{
+    background-color: lightgrey;
+}
+table{
+    border-spacing: 0px;
+    border-collapse: separate;
+    border-right: 1px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+}
+th{
+    height: 80px;
+    background-color: darkred;
+    color: aliceblue;
+    font-family: sans-serif;
+    
+}
+.article,.author,.words,.submitted{
+    border-right: 0.25px;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+td{
+    border-bottom: 0.25px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.dark-grey{
+    background-color: gainsboro;
+}
+#load-button{
+    width: 25px;
+    height: 25px;
+    background: url("icons/add.svg");
+    background-size: cover;
+    margin-left: auto; 
+    
+}
